@@ -1,0 +1,98 @@
+/* Base reset and typography */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+  color: #333333;
+  background-color: #fafafa;
+}
+
+header, footer {
+  background-color: #f5e8e4;
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  font-family: 'Helvetica Neue', sans-serif;
+  font-size: 2.5rem;
+  margin: 0;
+  color: #3a3a3a;
+}
+
+.tagline {
+  font-size: 1.2rem;
+  color: #6c6c6c;
+  margin-top: 8px;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 12px;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #5a4d4d;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  color: #a67873;
+}
+
+main {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+h2 {
+  font-family: 'Georgia', serif;
+  font-size: 1.8rem;
+  margin-bottom: 15px;
+  color: #4a4a4a;
+}
+
+h3 {
+  font-family: 'Georgia', serif;
+  font-size: 1.4rem;
+  margin-top: 30px;
+  color: #4a4a4a;
+}
+
+ul {
+  margin-top: 15px;
+  padding-left: 30px;
+}
+
+ul li {
+  margin-bottom: 10px;
+}
+
+footer {
+  margin-top: 60px;
+  font-size: 0.9rem;
+  color: #5a5a5a;
+}
+
+footer a {
+  color: #5a4d4d;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+/* Customizations (3+): */
+/* 1. Custom font families for headings/body */
+/* 2. Custom color scheme (soft pink/cream/neutrals) */
+/* 3. Custom layout with max-width, margins, padding */
